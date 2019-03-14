@@ -7,3 +7,18 @@ It contains 4 different queries:
 3. For electric cars only, write a MapReduce job to display the average city MPG for fuelType1   
 4. Write a MapReduce job to calculate the difference in the average annual petroleum consumption in barrels for fuelType1between electric cars and gasoline cars 
  
+ssh bbod
+ssh hadoop1
+
+compile:  javac Habib_Boloorchi_Program_(number).java 
+
+create jar :  jar cfe Habib_Boloorchi_Program_1.jar Habib_Boloorchi_Program_1 *.class
+
+
+
+export HADOOP_CLASSPATH=Habib_Boloorchi_Program_(number).jar
+
+
+run in hadoop: hadoop Habib_Boloorchi_Program_(number)  /CS5433/2019/vehicles.csv autohome/username/out
+
+fetch output: hadoop fs -get autohome/hboloor/out/
