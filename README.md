@@ -1,4 +1,5 @@
 # Map-Reduce-of-Vehicles
+This is for the course of Big Data Management.
 This project is created to work on Hadoop Framework for vehicles Data-Set collected from this website :
 https://datasource.kapsarc.org/explore/dataset/us-vehicle-fuel-economy-data-1984-2017/information/?disjunctive.make&disjunctive.model&sort=-year
 It contains 4 different queries:
